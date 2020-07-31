@@ -2,11 +2,11 @@
  A simple text-based Browser with browse-back functionality
 
 ## Files
-requirements.txt
-textbrowser.py
-textbrowser.gif
-README.md
-LICENSE
+* requirements.txt
+* textbrowser.py
+* textbrowser.gif
+* README.md
+* LICENSE
 
 ## Installation and Usage
 This file is designed for use from the command line.
@@ -14,14 +14,14 @@ This file is designed for use from the command line.
 * Save `requirements.txt` and `textbrowser.py` to a folder.
 * Navigate to that folder.
 * Launch command line/terminal
-* Check if you have packages `bs4`, `requests` and `colorama` installed separately (all three are listed in requirements.txt):
+* Check if you have packages `bs4`, `requests` and `colorama` installed separately (all three are listed in `requirements.txt`):
 * `pip show requests`
 * `pip show bs4`
 * `pip show colorama`
 * If there's warning for all of these packages, install them with the command `pip install -r requirements.txt`
 * Alternatively, install only the unavailable ones with `pip install modulename` where modulename is colorama for example.
 
-* Watch `textbrowser.gif` for a short intro.
+* Watch `textbrowser.gif` for a brief intro.
 
 Now type: `python textbrowser.py`
 
